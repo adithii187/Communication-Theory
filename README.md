@@ -35,30 +35,30 @@ This project involves simulating a complete communication model using MATLAB. Th
 ### 5. Channel and Demodulation
 - **Objective:** Transmit the signal through a channel and demodulate it.
 - **Channels:**
-  1. Memoryless AWGN channel: \( r(t) = s(t) + n(t) \).
-  2. AWGN channel with memory: \( r(t) = h(t) * s(t) + n(t) \), where \( h(t) = a\delta(t) + (1 - a)\delta(t - bT_b) \).
+  1. Memoryless AWGN channel: $r(t) = s(t) + n(t)$.
+  2. AWGN channel with memory: $r(t) = h(t) * s(t) + n(t)$, where $h(t) = a\delta(t) + (1 - a)\delta(t - bT_b)$.
 - **Demodulation:** Process the received signal to recover the original bitstream.
 - **Result:** Demodulated signal, which is then decoded back to the original audio.
 
 ### Outputs
 
 1. **Plot the output of every block:**
-   - \( x_1(t) \): Output of the A/D converter.
-   - \( x_2(t) \): Output of the encoder.
-   - \( x_3(t) \): Output of the line coding block.
-   - \( x_4(t) \): Output of the modulation block.
-   - \( y_1(t) \): Output after passing through the memoryless AWGN channel.
-   - \( y_2(t) \): Output after demodulation from the memoryless AWGN channel.
-   - \( y_3(t) \): Output after passing through the AWGN channel with memory.
-   - \( y_4(t) \): Output after demodulation from the AWGN channel with memory.
+   - $x_1(t)$: Output of the A/D converter.
+   - $x_2(t)$: Output of the encoder.
+   - $x_3(t)$: Output of the line coding block.
+   - $x_4(t)$: Output of the modulation block.
+   - $y_1(t)$: Output after passing through the memoryless AWGN channel.
+   - $y_2(t)$: Output after demodulation from the memoryless AWGN channel.
+   - $y_3(t)$: Output after passing through the AWGN channel with memory.
+   - $y_4(t)$: Output after demodulation from the AWGN channel with memory.
 
 2. **Plot the Power Spectral Density (PSD) of:**
-   - \( x_3(t) \)
-   - \( x_4(t) \)
-   - \( y_3(t) \)
-   - \( y_4(t) \)
+   - $x_3(t)$
+   - $x_4(t)$
+   - $y_3(t)$
+   - $y_4(t)$
 
-3. **Probability of Error \( P_e \) vs SNR:**
+3. **Probability of Error $P_e$ vs SNR:**
    - For both channel realizations (memoryless AWGN and AWGN with memory).
    - Provide comparative analysis.
 
