@@ -1,5 +1,4 @@
 QPSK Type 2 Communication Model Simulation in MATLAB
-Introduction
 
 This project involves simulating a complete communication model using MATLAB. The primary goal is to recreate a given audio file after processing it through various stages of the communication model. The project covers the following key blocks: A/D converter, Encoder, Line Coding, Modulation, Channel, and Demodulation. The specific encoding scheme implemented is Quadrature Phase-Shift Keying (QPSK) Type 2.
 Procedure
