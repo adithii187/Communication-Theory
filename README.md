@@ -19,7 +19,7 @@ This project involves simulating a complete communication model using MATLAB. Th
 
 ### 3. Line Coding
 - **Objective:** Generate the line-coded signal.
-- **Equation:** \( x_3(t) = \sum_k a_k p(t - kT_b) \), where \( p(t) \) is a pulse of duration \( T_b \).
+- **Equation:** $x_3(t) = \sum_k a_k p(t - kT_b)$, where $p(t)$ is a pulse of duration $T_b$.
 - **Pulse Shapes:**
   1. Rectangular pulse.
   2. Raised cosine pulse.
